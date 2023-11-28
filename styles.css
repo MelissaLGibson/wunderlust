@@ -109,7 +109,7 @@ header {
 	grid-area: header;
 	background-image: var(--grad);
 	display: grid;
-	grid-template-columns: 50% 50%;
+	grid-template-columns: 1fr 1fr;
 	gap: 1%;
 }
 #logo img{
@@ -291,14 +291,14 @@ main {
 	"contact";
 }
 #intro {
-	grid-area: "intro";
+	grid-area: intro;
 	display: grid;
-	grid-template-columns: auto;
+	grid-template-columns: 1fr;
 	margin-bottom: 10%;
 }
 #img-grid {
 	display: grid;
-	grid-template-columns: auto;
+	grid-template-columns: 1fr;
 	gap: 1%;
 	margin: 5% 0 0 0;
 }
@@ -309,10 +309,10 @@ main {
 	---- PLAN YOUR TRIP ----
 */
 #plan {
-	grid-area: "plan";
+	grid-area: plan;
 	background-color: var(--yellow);
 	display: grid;
-	grid-template-columns: auto;
+	grid-template-columns:  1fr;
 	gap: 0;
 	padding: 2%;
 }
@@ -346,7 +346,7 @@ main {
 	---- TESTIMONIALS ----
 */
 #testimonials {
-	grid-area: "testimonials";
+	grid-area: testimonials;
 	padding-top: 5%;
 }
 
@@ -368,7 +368,7 @@ main {
 	---- ABOUT YOUR DESTINATION----
 */
 #about {
-	grid-area: "about";
+	grid-area: about;
 	background-color: var(--blue);
 	height: 6%;
 	padding: 5%;
@@ -376,7 +376,7 @@ main {
 }
 #about div{
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: 1fr 1fr;
 	gap:1%;
 	padding: 5%;
 	margin: 0 auto;
@@ -385,7 +385,7 @@ main {
 }
 #about section {
 	display: grid;
-	grid-template-columns: auto;
+	grid-template-columns:  1fr;
 	gap: 0;
 	text-align: center;
 	justify-items: center;
@@ -403,13 +403,16 @@ main {
 	---- CONTACT FORM ----
 */
 #contact{
-	grid-area: "contact";
+	grid-area: contact;
 	text-align: left;
 	margin-top: 5%;
 }
 #names, #nums {
 	display: grid;
-	grid-template-columns: auto;
+	grid-template-columns: 1fr;
+}
+#nums {
+	margin-top: 2%;
 }
 form input {
 	padding: 5% 10%;
@@ -497,7 +500,7 @@ footer a{
 	---- HEADER GRID ----
 */
 header {
-	grid-template-columns: auto auto auto auto;
+	grid-template-columns:  1fr 1fr 1fr 1fr;
 	height: 200px;
 	padding-top: 5%;
 	gap: 0%;
@@ -572,7 +575,7 @@ background-color: var(--yellow);
 	margin-top: 10%;
 }
 #img-grid {
-	grid-template-columns: auto auto;
+	grid-template-columns:  1fr 1fr;
 	gap: 3%;
 	margin: auto 5%;
 }
@@ -590,7 +593,7 @@ background-color: var(--yellow);
 */
 #plan div{
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns:  1fr 1fr;
 	padding: 2%;
 }
 #plan div section {
@@ -624,7 +627,7 @@ background-color: var(--yellow);
 
 #testimonials div{
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns:  1fr 1fr;
 	margin: 0 5%;
 }
 #testimonials div img {
@@ -653,7 +656,7 @@ background-color: var(--yellow);
 }
 #about section {
 	display: grid;
-	grid-template-columns: auto;
+	grid-template-columns:  1fr;
 	gap: 0%;
 	margin-top: 0;
 }
@@ -701,7 +704,7 @@ input[type="radio"] {
 footer {
 	text-align: center;
 	display: grid;
-	grid-template-columns: auto auto auto;
+	grid-template-columns:  1fr 1fr 1fr;
 	background-color: var(--lightgray);
 	padding: 3%;
 	margin-top: 0;
@@ -720,7 +723,7 @@ footer a{
 	---- HEADER GRID ----
 */
 header {
-	grid-template-columns: auto auto auto auto;
+	grid-template-columns:  1fr 1fr 1fr 1fr;
 	gap: 0;
 	margin: 0;
 	padding: 0;
@@ -801,7 +804,7 @@ nav li:hover {
 	padding-right: 50%;
 }
 #img-grid {
-	grid-template-columns: auto auto;
+	grid-template-columns:  1fr 1fr;
 	grid-column-start: 2;
 	grid-row-start: 1;
 	gap: 3%;
@@ -815,7 +818,7 @@ nav li:hover {
 	---- PLAN YOUR TRIP ----
 */
 #plan div{
-	grid-template-columns: auto auto auto auto;
+	grid-template-columns:  1fr 1fr 1fr 1fr;
 }
 
 /*
@@ -825,7 +828,7 @@ nav li:hover {
 	padding: 5%;
 }
 #testimonials div{
-	grid-template-columns: auto auto auto auto;
+	grid-template-columns:  1fr 1fr 1fr 1fr;
 	gap: 5%;
 }
 
