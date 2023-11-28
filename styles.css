@@ -559,7 +559,7 @@ nav ul li {
 	font-weight: 700;
 }
 .active {
-background-color: var(--yellow);
+	text-decoration: underline;
 }
 nav li:hover {
 background-color: var(--yellow);
@@ -778,7 +778,7 @@ nav ul li {
 	font-weight: 700;
 }
 .active {
-	background-color: var(--yellow);
+	text-decoration: underline;
 }
 nav li:hover {
 	background-color: var(--yellow);
